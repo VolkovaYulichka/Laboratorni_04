@@ -2,7 +2,6 @@
 #include <stdlib.h>
 #include <time.h>
 
-
 int main(int argc, char *argv[]) {
 	int i, d = 0, v = 0;
 	int mas [20];
