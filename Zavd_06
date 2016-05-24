@@ -3,7 +3,7 @@
 #include <time.h>
 
 void poshyk(char *mas, char bykv);
-
+/* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char *argv[]) {
 	char mas[100]; 
@@ -24,7 +24,7 @@ int main(int argc, char *argv[]) {
 	for (i = 0; i < 20; i++)
 	printf("mas[%d] = %c\n", i, mas[i]);
 	
-	printf("Vvedite chislo:");
+	printf("Vvedite bykvy:");
 	scanf("%c", &bykv);
 	poshyk(mas, bykv);
 	
