@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <time.h>
 
-void poshyk(int *mas, int ch);
+void poshyk(int *mas, int n);
 
 int main(int argc, char *argv[]) {
 	int mas[20];
