@@ -11,7 +11,7 @@ void rand_mas_n(int *mas, int n, int kol, int poch);
 
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) { 
 	
 	int masA [2 * SIZE], masB[SIZE];
 	int i, i_B, i_pr;
